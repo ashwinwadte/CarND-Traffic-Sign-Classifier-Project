@@ -12,17 +12,17 @@ The goals / steps of this project are the following:
 * Analyze the softmax probabilities of the new images
 * Summarize the results with a written report
 
-
 [//]: # (Image References)
 
-[image1]: ./examples/train_visualization.jpg.jpg "Visualization"
-[image2]: ./examples/preprocessed_data.png.jpg "PreProcessed"
-[image3]: ./examples/postprocessed_data.png.jpg "PostProcessed"
-[image4]: ./traffic_sign_test_images/1.png "Traffic Sign 1"
-[image5]: ./traffic_sign_test_images/2.png "Traffic Sign 2"
-[image6]: ./traffic_sign_test_images/3.png "Traffic Sign 3"
-[image7]: ./traffic_sign_test_images/4.png "Traffic Sign 4"
-[image8]: ./traffic_sign_test_images/5.png "Traffic Sign 5"
+[image1]: ./examples/train_visualization.jpg "Visualization"
+[image2]: ./examples/preprocessed_data.png "PreProcessed"
+[image3]: ./examples/postprocessed_data.png "PostProcessed"
+[image4]: ./traffic_sign_test_images/1.jpg "Traffic Sign 1"
+[image5]: ./traffic_sign_test_images/2.jpg "Traffic Sign 2"
+[image6]: ./traffic_sign_test_images/3.jpg "Traffic Sign 3"
+[image7]: ./traffic_sign_test_images/4.jpg "Traffic Sign 4"
+[image8]: ./traffic_sign_test_images/5.jpg "Traffic Sign 5"
+
 
 ## Rubric Points
 ### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.
@@ -51,7 +51,8 @@ signs data set:
 
 Here is an exploratory visualization of the data set. It is a bar chart showing the train data distribution with classes on X-axis and examples per class on Y-axis.
 
-![alt text][image1]
+![Visualization][image1]
+
 
 ### Design and Test a Model Architecture
 
@@ -63,10 +64,9 @@ Then, I normalized the image data because zero-mean and equal-variance gives bet
 
 Here is an example of a traffic sign image before and after processing.
 
+![PreProcessed][image2]
 
-![alt text][image2]   ![alt text][image3]
-
-
+![PostProcessed][image3]
 
 #### 2. Describe what your final model architecture looks like including model type, layers, layer sizes, connectivity, etc.) Consider including a diagram and/or table describing the final model.
 
@@ -120,8 +120,8 @@ As a first approach I played around with number of epochs, batch size and learni
 
 Here are five German traffic signs that I found on the web:
 
-![alt text][image4] ![alt text][image5] ![alt text][image6]
-![alt text][image7] ![alt text][image8]
+![Traffic Sign 1][image4] ![Traffic Sign 2][image5] ![Traffic Sign 3][image6]
+![Traffic Sign 4][image7] ![Traffic Sign 5][image8]
 
 The forth image might be difficult to classify because its little tilted.
 
